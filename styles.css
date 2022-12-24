@@ -141,12 +141,16 @@ h1 {
     .content {
         padding: 5rem;
         max-height: 100vh;
-
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .preview {
         flex-direction: row;
         max-width: 65rem;
-        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .preview > * {
